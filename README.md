@@ -4,10 +4,39 @@ Perform Cloud Data Science with Azure Machine Learning
 https://buildazure.com/2017/02/09/70-774-perform-cloud-data-science-with-azure-machine-learning-certification-exam/
 
 ## Prepare Data for Analysis in Azure Machine Learning and Export from Azure Machine Learning
-  + Import and export data to and from Azure Machine Learning
-    + Import and export data to and from Azure Blob storage, import and export data to and from Azure SQL Database, import and export data via Hive Queries, import data from a website, import data from on-premises SQL
-  + Explore and summarize data
-    + Create univariate summaries, create multivariate summaries, visualize univariate distributions, use existing Microsoft R or Python notebooks for custom summaries and custom visualizations, use zip archives to import external packages for R or Python
+  + **Import and export data to and from Azure Machine Learning.** Import and export data to and from Azure Blob storage, import and export data to and from Azure SQL Database, import and export data via Hive Queries, import data from a website, import data from on-premises SQL
+    - Import from file by clicking `New` in bottom left corner
+    - Import from the other sources `Data Input and Output -> Import Data`
+    - Export using `Data Input and Output -> Export Data`
+      
+  + **Explore and summarize data.**  Create univariate summaries, create multivariate summaries, visualize univariate distributions, use existing Microsoft R or Python notebooks for custom summaries and custom visualizations, use zip archives to import external packages for R or Python
+    + Univariate/Multivariate Statistics and Visualizations
+       - 1: Click on the output connector below the data set.
+       - 2: Select `Visualize`.  This will bring up a helpful screen which includes:
+          + A view of the dataset.
+          + A histogram (or boxplot, your choice) for numeric variables
+          + A bar chart for categorical variables
+       - 3: Select a column by clicking anywhere in the column itself.  This activates the `Statistics` and `Visualizations` options on the right.
+          + Statistics (for categorical values, only last three provided)
+            - Mean
+            - Median
+            - Min
+            - Max
+            - Standard Deviation
+            - Unique Values
+            - Missing Values
+            - Variable Type
+          + Visualizations
+            - Bar Chart for Categorical (can log scale)
+            - Histogram
+              + log scale x or y
+              + change bin number
+              + overlay cum dist or prob dens
+            - Box Plot (can log scale)
+        - 4.  Under `compare to` drop down, select another variable for multivariate analysis
+          + If 2 quantitative variables, scatterplot shown (can log scale)
+          + If 2 categorical variables, cross tabulation shown (table of frequencies)
+          + If 1 categorical and 1 quantitative, then side-by-side boxplots shown
   + Cleanse data for Azure Machine Learning
     + Apply filters to limit a dataset to the desired rows, identify and address missing data, identify and address outliers, remove columns and rows of datasets
   + Perform feature engineering
