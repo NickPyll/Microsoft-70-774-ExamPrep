@@ -18,27 +18,38 @@ https://buildazure.com/2017/02/09/70-774-perform-cloud-data-science-with-azure-m
           + A bar chart for categorical variables
        - 3: Select a column by clicking anywhere in the column itself.  This activates the `Statistics` and `Visualizations` options on the right.
           + Statistics (for categorical values, only last three provided)
-            - Mean
-            - Median
-            - Min
-            - Max
-            - Standard Deviation
-            - Unique Values
-            - Missing Values
-            - Variable Type
+            + Mean
+            + Median
+            + Min
+            + Max
+            + Standard Deviation
+            + Unique Values
+            + Missing Values
+            + Variable Type
           + Visualizations
-            - Bar Chart for Categorical (can log scale)
-            - Histogram
-              + log scale x or y
-              + change bin number
-              + overlay cum dist or prob dens
-            - Box Plot (can log scale)
+            + Bar Chart for Categorical (can log scale)
+            + Histogram
+              - log scale x or y
+              - change bin number
+              - overlay cum dist or prob dens
+            + Box Plot (can log scale)
         - 4.  Under `compare to` drop down, select another variable for multivariate analysis
           + If 2 quantitative variables, scatterplot shown (can log scale)
           + If 2 categorical variables, cross tabulation shown (table of frequencies)
           + If 1 categorical and 1 quantitative, then side-by-side boxplots shown
-  + Cleanse data for Azure Machine Learning
-    + Apply filters to limit a dataset to the desired rows, identify and address missing data, identify and address outliers, remove columns and rows of datasets
+          
+    + Notebooks 
+      - Can explore a data set in an existing notebook by simply opening the notebook on the left side
+      - Can create a new notebook to explore the data set by clicking on the output connector below data set, and select `Open in a new Notebook`
+    + R - Under `R Language Modules` drag `Execute R Script` onto workspace
+      + Select data input(s) and connect to R node
+      + Can also connect a zipped package as a dataset, and install via R script
+    + Python - Under `Python Language Models` drag `Execute Python Script` onto workspace
+      + Use `azureml_main` function to connect one or two datasets into Python node
+      + Use third input port to bring in zipped script bundle `Import mymodule`
+      
+  + **Cleanse data for Azure Machine Learning.**  Apply filters to limit a dataset to the desired rows, identify and address missing data, identify and address outliers, remove columns and rows of datasets
+    + Filter
   + Perform feature engineering
     + Merge multiple datasets by rows or columns into a single dataset by columns, merge multiple datasets by rows or columns into a single dataset by rows, add columns that are combinations of other columns, manually select and construct features for model estimation, automatically select and construct features for model estimation, reduce dimensions of data through principal component analysis (PCA), manage variable metadata, select standardized variables based on planned analysis
     
