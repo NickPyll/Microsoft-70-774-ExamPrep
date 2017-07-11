@@ -33,10 +33,11 @@ https://buildazure.com/2017/02/09/70-774-perform-cloud-data-science-with-azure-m
               - change bin number
               - overlay cum dist or prob dens
             + Box Plot (can log scale)
-        - 4.  Under `compare to` drop down, select another variable for multivariate analysis
+        - 4:  Under `compare to` drop down, select another variable for multivariate analysis
           + If 2 quantitative variables, scatterplot shown (can log scale)
           + If 2 categorical variables, cross tabulation shown (table of frequencies)
           + If 1 categorical and 1 quantitative, then side-by-side boxplots shown
+        - 5: Can also use the `Summarize Data` module to get additional insight (kurtosis, percentiles, variance, range)
           
     + Notebooks 
       - Can explore a data set in an existing notebook by simply opening the notebook on the left side
@@ -50,6 +51,19 @@ https://buildazure.com/2017/02/09/70-774-perform-cloud-data-science-with-azure-m
       
   + **Cleanse data for Azure Machine Learning.**  Apply filters to limit a dataset to the desired rows, identify and address missing data, identify and address outliers, remove columns and rows of datasets
     + Filter
+      - `Split Data` and use relative expression
+      - `Apply SQL Transformation` - can use this to filter rows
+    + Missing Data
+      - `Clean Missing Data` node can be used to address issues of missing data
+      - Select which columns to clean
+      - Choose Cleaning Mode (Mean, Median, Mode, PCA, Custom, Remove row/column, MICE)
+    + Outliers
+    + Remove Columns and Rows
+      - `Select Columns`
+      - `Remove Duplicate Rows`
+      
+    
+    
   + Perform feature engineering
     + Merge multiple datasets by rows or columns into a single dataset by columns, merge multiple datasets by rows or columns into a single dataset by rows, add columns that are combinations of other columns, manually select and construct features for model estimation, automatically select and construct features for model estimation, reduce dimensions of data through principal component analysis (PCA), manage variable metadata, select standardized variables based on planned analysis
     
