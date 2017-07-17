@@ -51,7 +51,7 @@ https://buildazure.com/2017/02/09/70-774-perform-cloud-data-science-with-azure-m
       
   + **Cleanse data for Azure Machine Learning.**  Apply filters to limit a dataset to the desired rows, identify and address missing data, identify and address outliers, remove columns and rows of datasets
     + Filter
-      - `Split Data` and use relative expression
+      - `Split Data` and use regular or relative expression
       - `Apply SQL Transformation` - can use this to filter rows
     + Missing Data
       - `Clean Missing Data` node can be used to address issues of missing data
@@ -61,11 +61,8 @@ https://buildazure.com/2017/02/09/70-774-perform-cloud-data-science-with-azure-m
     + Remove Columns and Rows
       - `Select Columns`
       - `Remove Duplicate Rows`
-      
     
-    
-  + Perform feature engineering
-    + Merge multiple datasets by rows or columns into a single dataset by columns, merge multiple datasets by rows or columns into a single dataset by rows, add columns that are combinations of other columns, manually select and construct features for model estimation, automatically select and construct features for model estimation, reduce dimensions of data through principal component analysis (PCA), manage variable metadata, select standardized variables based on planned analysis
+  + **Perform feature engineering** Merge multiple datasets by rows or columns into a single dataset by columns, merge multiple datasets by rows or columns into a single dataset by rows, add columns that are combinations of other columns, manually select and construct features for model estimation, automatically select and construct features for model estimation, reduce dimensions of data through principal component analysis (PCA), manage variable metadata, select standardized variables based on planned analysis
     
 ## Develop Machine Learning Models
   + Select an appropriate algorithm or method
