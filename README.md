@@ -58,11 +58,23 @@ https://buildazure.com/2017/02/09/70-774-perform-cloud-data-science-with-azure-m
       - Select which columns to clean
       - Choose Cleaning Mode (Mean, Median, Mode, PCA, Custom, Remove row/column, MICE)
     + Outliers
+      - `Clip Values` can define constant or percentage to clip peaks or subpeaks(or both)
+      - Replace with mean, median, threshold, or missing
+      - Add indicator column to see if value was clipped
     + Remove Columns and Rows
       - `Select Columns`
       - `Remove Duplicate Rows`
     
   + **Perform feature engineering** Merge multiple datasets by rows or columns into a single dataset by columns, merge multiple datasets by rows or columns into a single dataset by rows, add columns that are combinations of other columns, manually select and construct features for model estimation, automatically select and construct features for model estimation, reduce dimensions of data through principal component analysis (PCA), manage variable metadata, select standardized variables based on planned analysis
+    + Merge
+      - `Join Data` connect two datasets to join
+      - Select key column(s) for both datasets
+      - Match case?
+      - Type of join?
+    + Feature Selection
+    + PCA
+    + Variable Metadata
+    + Standardized Variables
     
 ## Develop Machine Learning Models
   + Select an appropriate algorithm or method
