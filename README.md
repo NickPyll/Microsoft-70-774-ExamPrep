@@ -84,6 +84,7 @@ https://buildazure.com/2017/02/09/70-774-perform-cloud-data-science-with-azure-m
 ## Develop Machine Learning Models
   + Select an appropriate algorithm or method
     + Select an appropriate algorithm for predicting continuous label data, select an appropriate algorithm for supervised versus unsupervised scenarios, identify when to select R versus Python notebooks, identify an appropriate algorithm for grouping unlabeled data, identify an appropriate algorithm for classifying label data, select an appropriate ensemble
+    
   + Initialize and train appropriate models
     + Tune hyperparameters manually; tune hyperparameters automatically; split data into training and testing datasets, including using routines for cross-validation; build an ensemble using the stacking method
   + Validate models
