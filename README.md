@@ -72,9 +72,14 @@ https://buildazure.com/2017/02/09/70-774-perform-cloud-data-science-with-azure-m
       - Match case?
       - Type of join?
     + Feature Selection
+      - Filter-Based Feature Selection can select how many variables to select, and which metric will be used to determine
     + PCA
+      - Select columns and number of dimensions.
+      - Specify whether to normalize to zero mean
     + Variable Metadata
+      - `Edit Metadata` can be used to change variable type and/or role
     + Standardized Variables
+      - Select variables to normalize and transformation method
     
 ## Develop Machine Learning Models
   + Select an appropriate algorithm or method
