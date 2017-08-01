@@ -2,6 +2,7 @@
 Perform Cloud Data Science with Azure Machine Learning
 
 https://buildazure.com/2017/02/09/70-774-perform-cloud-data-science-with-azure-machine-learning-certification-exam/
+https://azure.github.io/learnAnalytics-public/cert_guides/certification_70-774_community_guide.html
 
 ## Prepare Data for Analysis in Azure Machine Learning and Export from Azure Machine Learning
   + **Import and export data to and from Azure Machine Learning.** Import and export data to and from Azure Blob storage, import and export data to and from Azure SQL Database, import and export data via Hive Queries, import data from a website, import data from on-premises SQL
